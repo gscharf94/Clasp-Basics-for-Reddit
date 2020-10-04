@@ -1,4 +1,4 @@
-"# Clasp-Basics-for-Reddit" 
+# Clasp-Basics-for-Reddit 
 
 I know a lot of people on the subreddit are beginners and maybe don't even know about Clasp, so I figured I'd make a small tutorial to help people get familiarized with Clasp so they can be more productive. Personally, I hate using the Google editor. The auto-indent screws me up and I hate not having the auto-complete feature that editors like VS Code or Sublime give me.
 
