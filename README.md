@@ -37,7 +37,7 @@ Then go back to the command line and type in ```cd your/path/here```
 
 ![cd](/images/3.PNG)
 
-This will set your active directory to your project folder. You will need to always do this other clasp will not know where your project is. The way clasp works, is it looks for a file called 
+This will set your active directory to your project folder. You will need to always do this otherwise clasp will not know where your project is. The way clasp works, is it looks for a file called 
 
 ```.clasp.json``` in the active directory
 
@@ -90,4 +90,4 @@ Then, with a command line set to that same directory, just type in "clasp pull".
 
 If there are any things people wanna change feel free to let me know this was written by me in like 20 minutes so hopefully there aren't too many mistakes. It may seem a little overwhelming for poeple new to this stuff, but it will make your coding a lot more enjoyable because the online editor just doesn't cut it, at least in my opinion.
 
-Also, pushing to github with git works in a similar way as this, and that's a good habit to get into with your coding projects, as you can track the changse over time in your project. So I would suggest people look into that. If you learn clasp, git is just learning a couple commands that do the same thing. Instead of "clasp create", you do "git init" or instead of "clasp push" you do "git push origin master". Same thing, different commands. 
+Also, pushing to github with git works in a similar way as this, and that's a good habit to get into with your coding projects, as you can track the changes over time in your project. So I would suggest people look into that. If you learn clasp, git is just learning a couple commands that do the same thing. Instead of "clasp create", you do "git init" or instead of "clasp push" you do "git push origin master". Same thing, different commands. 
