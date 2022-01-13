@@ -78,13 +78,13 @@ We save the file and then go back to our command line and type in "clasp push" a
 
 ## Cloning a project that already exists
 
-Ok, so it's pretty simple. First, get the script ID by opening the script editor up in a web browser and finding it in the URL. Next, create a text file called ".clasp.json" in the directory you want the code to be copied into. Then in that file copy paste this text, replacing the "SCRIPTID" with your actual script id.
+Ok, so it's pretty simple. First, get the script ID by opening the script editor up in a web browser and finding it in the URL. Next, with a command line set to that same directory, run the following:
 
 ```
-{"scriptId":"SCRIPTID"}
+clasp clone {scriptID}
 ```
 
-Then, with a command line set to that same directory, just type in "clasp pull". All the files from your GAS project will be downloaded into that directory, and whenever you type in "clasp push" the same file will be updated.
+This will create a `.clasp.json` config file for you. You can now use "clasp pull" and "clasp push".
 
 ## final notes
 
